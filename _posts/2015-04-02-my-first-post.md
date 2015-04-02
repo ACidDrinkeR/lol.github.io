@@ -1,14 +1,12 @@
 ---
 layout: post
-title: "My First Post."
-date: 2014-04-30
+title: "My first blog post EVAR!"
+date: 2015-04-02
 ---
-
-# My first ever blog-post EVAR!
  
 There's a lot more to learn,  
 a lot more to do,  
-a lot more of fun,
-and this rhyme sucks. 
+a lot more of fun,  
+and this rhyme sucks.   
 
-### [Check out my other posts.](http://computableverse.com/blog/)
+## [Check out my other posts.](http://computableverse.com/blog/)
