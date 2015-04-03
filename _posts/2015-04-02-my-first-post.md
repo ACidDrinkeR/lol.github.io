@@ -9,4 +9,4 @@ a lot more to do,
 a lot more of fun,  
 and this rhyme sucks.   
 
-## [Check out my other posts.](http://computableverse.com/blog/)
+##### [Check out my other posts.](http://computableverse.com/blog/)

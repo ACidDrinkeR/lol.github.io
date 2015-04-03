@@ -3,27 +3,52 @@
 		<head>
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+			<link rel="stylesheet" type="text/css" href="/css/bootstrap-theme.min.css">
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
-		<body>
-			<nav>
-			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/about">About</a></li>
-				<li><a href="/blog">Blog</a></li>
-			</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-			<ul>
-				<li><a href="mailto:mitesh.acid+site@gmail.com">Personal Email</a></li>
-				<li><a href="https://github.com/miteshms">GitHub</a></li>
-				<li><a href="https://twitter.com/miteshms">@MiteshMS</a> (Twitter)</li>
-			</ul>
-			</footer>
-		</body>
+		<div class="container myMain">
+		<!-- myHeader_start -->
+			<div class="container myHeader">
+				<div class="row">
+					<div class="col-lg-3 hidden-xs-block hidden-md-block"></div>
+					<div class="col-lg-6 noPadding">
+					<ul>
+						<li ><a href="/">Home:</a></li>
+						<li ><a href="/blog">:Blog:</a></li>
+						<li ><a href="/about">:About</a></li>
+					</ul>
+					</div>
+					<div class="col-lg-3 hidden-xs-block hidden-md-block"></div>
+				</div>
+			</div>
+			<div class="container mySiteSignature">
+				<div class="row">
+					<h6>Computable(verse) {</h6	>
+				</div>
+			</div>
+		<!-- myHeader_end -->
+			<body class="container">
+				{{ content }}
+			</body>
+			<div class="container mySiteSignature">
+				<div class="row">
+					<h6>}</h6>
+				</div>
+			</div>
+			<div class="container myFooter">
+				<div class="row">
+					<div class="col-lg-3 hidden-xs-block hidden-md-block"></div>
+					<div class="col-lg-6 noPadding">
+					<ul>
+						<li><a href="mailto:mitesh.acid@gmail.com">Personal Email:</a></li>
+						<li><a href="https://github.com/miteshms">:GitHub:</a></li>
+						<li><a href="https://twitter.com/miteshms">:@MiteshMS</a></li>
+					</ul>
+					</div>
+					<div class="col-lg-3 hidden-xs-block hidden-md-block"></div>
+					
+				</div>
+			</div>
+		</div>
 	</html>
