@@ -5,16 +5,31 @@
     padding: 0px;
 }
 
+@media(min-width:1200px){
+    *{
+        font-size: 1.05em;
+    }
+}
+
 .container{
-    max-width: 720px;   
+    max-width: 720px;
+    margin: auto;   
 }
 
 a {
-    color: #3a8788;
+    /*color: #99ccdd;   Blue    */
+    /*  color: #3ad789; Green   */
+    color: #3ad789;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #3ad789;
 }
 
 .myTerminalEmulator{
-        color: #3a8788;
+        color: gray;
+        font-weight: normal;
 }
 .myTerminal{
     background-color: black;
@@ -27,6 +42,45 @@ a {
     text-decoration: none;
     list-style: none;
 }
+
+/* ## CUSTOM FONT SETTINGS ## */
+
+.myBlue{
+    color: #99ccdd;
+}
+
+.myBlue:hover{
+    color: #99ccdd;
+}
+
+.myGreen{
+    color: #3ad789;
+}
+
+.myGreen:hover{
+    color: #3ad789;
+}
+
+.myBlack{
+    color: black;
+}
+
+.myBlack:hover{
+    color: black;
+}
+
+.myGray{
+    color: gray;
+}
+
+.myBold{
+    font-weight: bold;
+}
+.myNoBold{
+    font-weight: normal;
+}
+
+
 /*  ## HEADER + FOOTER + SIGNATURE ## */
 
 .mySiteSignature{
@@ -37,12 +91,13 @@ a {
 }
 
 .myHeader{
-    margin-top: 10px;
+    padding-top: 10px;
     float: none;
     border-bottom: 2px dashed #d5d5d5;
 }
 
 .myFooter{
+    padding-top: 10px;
     float: none;
     border-top: 2px dashed #d5d5d5; 
 }
@@ -70,9 +125,9 @@ a {
 }
 
 .myHeader a:hover, .myFooter a:hover{
-    font-size: 1.2em;
     opacity: 1;
-    color: #99ccdd;
+/*  color: #99ccdd; */
+    color: #3ad789;
 }
 
 .noPadding{
