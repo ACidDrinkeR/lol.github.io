@@ -2,7 +2,6 @@
 layout: post
 title: "My first blog post EVAR!"
 date: 2015-04-02
-update: 2015-04-06
 ---
  
 There's a lot more to learn,  
