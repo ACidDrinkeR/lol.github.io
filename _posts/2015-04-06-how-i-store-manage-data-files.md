@@ -14,7 +14,7 @@ To be able to do this, I need an application / software / method which is
 * **Clean** - void of unecessary distractions and options; *Clutter free* U.I
 * **Easy** - Adding / removing / updating of data must be easy and intuitive.
 * **Flexible** - Editing / backups / upgrading / future-shifting must be easy to do. 
-* **Searchable** - what's the point of storing files if you can't search for them at the right time?
+* **Indexed** - what's the point of storing files if you can't access the contents at the right time?
 
 ###Keeping the above points in mind, I chose the following services:
 
