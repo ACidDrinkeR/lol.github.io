@@ -11,7 +11,15 @@ title: Computable(verse);
 			<span class="date myGray">{{ post.date | date_to_string }}</span>
 		</p>
 		<div class="content">
-			{{ post.content }}
+			{% if post.content contains '<!--more-->' %}
+  				{{ post.content | split:'<!--more-->' | first }}
+  				<div class="text-center">
+  				<a href="{{ post.url }}" class="myGreen">Read more...</a>
+  				</div>
+			{% else %}
+  				{{ post.content }}
+			{% endif %}
+
 			<!--a href="{{ post.url }}#disqus_thread"></a-->
 		</div>
 		<hr class="myBorder" />

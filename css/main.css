@@ -20,6 +20,9 @@ li{
     margin-bottom: 10px;
 }
 
+.myRight{
+    text-align: right;
+}
 .myBorder{
     border: 0;
     height: 1px;

@@ -8,6 +8,8 @@ In this day and age, taking and storing digital data especially *documents* is t
 
 I like keeping things organized neatly and avoid storing unecessary files, books, documents, items and even redundant information. I hate storing my data locally; *Cloud* is the way to go, it makes the data easy to acess from any computer and keeps the working environment consistent and clutter free. 
 
+<!--more-->
+
 To be able to do this, I need an application / software / method which is
 
 * **Sync** - ability to sync across all my devices. That includes all my Linux OS, Windows OS and Android OS.
