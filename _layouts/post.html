@@ -6,18 +6,6 @@ comments: true
 <h1 class="myBlue text-center">{{ page.title }}</h1>
 <p class="meta myGray">{{ page.date | date_to_string }}</p>
 
-<div class="post">
+<div class="post container">
   {{ content }}
-  <!--script type="text/javascript">
-    		/* * * CONFIGURATION VARIABLES * * */
-    		var disqus_shortname = 'computableverse';
-    
-    		/* * * DON'T EDIT BELOW THIS LINE * * */
-		    (function () {
-		        var s = document.createElement('script'); s.async = true;
-		        s.type = 'text/javascript';
-		        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-		        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-		    }());
-	</script-->
 </div>

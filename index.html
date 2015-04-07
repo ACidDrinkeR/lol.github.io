@@ -3,14 +3,13 @@ layout: default
 title: Computable(verse);
 ---
 
-<div class="container">
 	<!-- This loops through the paginated posts -->
 	{% for post in paginator.posts %}
 		<h1 class="text-center"><a href="{{ post.url }}" class="myBlue">{{ post.title }}</a></h1>
 		<p class="author">
 			<span class="date myGray">{{ post.date | date_to_string }}</span>
 		</p>
-		<div class="content">
+		<div class="content container">
 			{% if post.content contains '<!--more-->' %}
   				{{ post.content | split:'<!--more-->' | first }}
   				<div class="text-center">
@@ -47,4 +46,3 @@ title: Computable(verse);
 			</div>
 		</div>
 	</div>
-</div>

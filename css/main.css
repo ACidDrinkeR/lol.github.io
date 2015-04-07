@@ -5,10 +5,6 @@
     /*padding: 0px;*/
 }
 
-body{
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-
 @media(min-width:1200px){
     *{
         font-size: 1.75rem;
@@ -16,14 +12,11 @@ body{
     }
 }
 
-li{
-    margin-bottom: 10px;
-}
-
 .myRight{
     text-align: right;
 }
 .myBorder{
+    /* This snippet was taken from the internet */
     border: 0;
     height: 1px;
     background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
@@ -33,8 +26,7 @@ li{
 }
 
 .container{
-    max-width: 720px;
-    margin: auto;   
+    max-width: 720px;  
 }
 
 a {
@@ -71,40 +63,19 @@ ul{
 
 /* ## CUSTOM FONT SETTINGS ## */
 
-.myBlue{
-    color: #99ccdd;
-}
+.myBlue{ color: #99ccdd; }
+.myBlue:hover{ color: #99ccdd; }
 
-.myBlue:hover{
-    color: #99ccdd;
-}
+.myGreen{ color: #3ad789; }
+.myGreen:hover{ color: #3ad789; }
 
-.myGreen{
-    color: #3ad789;
-}
+.myBlack{ color: black; }
+.myBlack:hover{ color: black; }
 
-.myGreen:hover{
-    color: #3ad789;
-}
+.myGray{ color: gray; }
 
-.myBlack{
-    color: black;
-}
-
-.myBlack:hover{
-    color: black;
-}
-
-.myGray{
-    color: gray;
-}
-
-.myBold{
-    font-weight: bold;
-}
-.myNoBold{
-    font-weight: normal;
-}
+.myBold{ font-weight: bold; }
+.myNoBold{ font-weight: normal; }
 
 
 /*  ## HEADER + FOOTER + SIGNATURE ## */
@@ -116,40 +87,40 @@ ul{
     opacity: 0.5;
 }
 
-.myHeader{
+#myHeader{
     padding-top: 10px;
     float: none;
     border-bottom: 2px dashed #d5d5d5;
 }
 
-.myFooter{
+#myFooter{
     padding-top: 10px;
     float: none;
     border-top: 2px dashed #d5d5d5; 
 }
 
-.myHeader ul, .myFooter ul{
+#myHeader ul, #myFooter ul{
     list-style: none;
     font-weight: bold;
     text-align: center;
 }
 
-.myHeader ul li, .myFooter ul li{
+#myHeader ul li, #myFooter ul li{
     display: inline;
 }
 
-.myHeader a, .myFooter a{
+#myHeader a, #myFooter a{
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-decoration: none;
     color: #999;
     opacity: 0.8;
 }
 
-.myFooter a{
+#myFooter a{
     font-weight: bolder;
 }
 
-.myHeader a:hover, .myFooter a:hover{
+#myHeader a:hover, #myFooter a:hover{
     opacity: 1;
 /*  color: #99ccdd; */
     color: #3ad789;
