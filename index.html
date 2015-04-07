@@ -28,17 +28,17 @@ title: Computable(verse);
 	<!-- Pagination links -->
 	<div class="pagination container">
 		<div class="row">
-			<div class="col-sm-4 text-left">
+			<div class="col-xs-4 text-left">
 			{% if paginator.previous_page %}
 				<a href="{{ paginator.previous_page_path }}" class="previous myBlue">Previous</a>
 			{% else %}
 				<span class="previous myBlue">Previous</span>
 			{% endif %}
 			</div>
-			<div class="col-sm-4 text-center">
+			<div class="col-xs-4 text-center">
 				<span class="page_number myBlue">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
 			</div>
-			<div class="col-sm-4 text-right">
+			<div class="col-xs-4 text-right">
 			{% if paginator.next_page %}
 				<a href="{{ paginator.next_page_path }}" class="next myBlue">Next</a>
 			{% else %}
