@@ -5,7 +5,7 @@ title: Computable(verse);
 
 	<!-- This loops through the paginated posts -->
 	{% for post in paginator.posts %}
-		<h1 class="text-center"><a href="{{ post.url }}" class="myBlue">{{ post.title }}</a></h1>
+		<h1 class="text-center"><a href="{{ post.url }}" class="myBlack">{{ post.title }}</a></h1>
 		<p class="author">
 			<span class="date myGray">{{ post.date | date_to_string }}</span>
 		</p>
@@ -29,19 +29,19 @@ title: Computable(verse);
 		<div class="row">
 			<div class="col-xs-4 text-left">
 			{% if paginator.previous_page %}
-				<a href="{{ paginator.previous_page_path }}" class="previous myBlue">Previous</a>
+				<a href="{{ paginator.previous_page_path }}" class="previous myGreen">Previous</a>
 			{% else %}
-				<span class="previous myBlue">Previous</span>
+				<span class="previous myGray">Previous</span>
 			{% endif %}
 			</div>
 			<div class="col-xs-4 text-center">
-				<span class="page_number myBlue">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+				<span class="page_number myGray">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
 			</div>
 			<div class="col-xs-4 text-right">
 			{% if paginator.next_page %}
-				<a href="{{ paginator.next_page_path }}" class="next myBlue">Next</a>
+				<a href="{{ paginator.next_page_path }}" class="next myGreen">Next</a>
 			{% else %}
-				<span class="next myBlue">Next</span>
+				<span class="next myGray">Next</span>
 			{% endif %}
 			</div>
 		</div>
