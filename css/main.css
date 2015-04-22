@@ -1,9 +1,8 @@
 /* ## GLOBAL ## */
 * {
     /*font-family: Consolas, monaco, monospace;*/
-    /*font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     /*padding: 0px;*/
-    font-family: 'Sorts Mill Goudy', Georgia, Times, serif;
 }
 
 @media(min-width:1200px){
@@ -138,6 +137,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ## POSTS ## */
+
+.content{
+    font-family: 'Sorts Mill Goudy', Georgia, Times, serif;
+}
+
+.post{
+    font-family: 'Sorts Mill Goudy', Georgia, Times, serif;
+}
 
 ul.posts { 
     margin: 20px auto 40px; 
