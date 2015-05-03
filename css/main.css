@@ -12,6 +12,9 @@
     }
 }
 
+.myMono{
+    font-family: Consolas, monaco, monospace;
+}
 .myRight{
     text-align: right;
 }
