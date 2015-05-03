@@ -36,10 +36,14 @@ a {
     /*color: #99ccdd;   Blue    */
     /*  color: #3ad789; Green   */
     font-size: 1em;
+    text-decoration: none;
+    border-width: 0 0 1px 0;
+    border-style: none none solid none;
+    border-color: #c0c0c0;
 }
 
 a:hover{
-    color: #3ad789;
+    color: gray;
 }
 
 ul{
@@ -143,6 +147,13 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Sorts Mill Goudy', Georgia, Times, serif;
 }
 
+a.post{
+    text-decoration: none;
+    border-width: 0 0 1px 0;
+    border-style: none none solid none;
+    border-color: #c0c0c0;
+}
+}
 .post{
     font-family: 'Sorts Mill Goudy', Georgia, Times, serif;
 }
