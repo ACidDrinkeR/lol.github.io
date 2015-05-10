@@ -4,6 +4,7 @@ title: "How do I store and manage my 'data' / 'files'?"
 date: 2015-04-06
 ---
 
+## By [Mitesh Shah](http://miteshms.me/author)
 In this day and age, taking and storing digital data especially *documents* is trivial. It's inevitable and everyone has to do it at some point or the other.
 
 I like keeping things organized neatly and avoid storing unecessary files, books, documents, items and even redundant information. I hate storing my data locally; *Cloud* is the way to go, it makes the data easy to acess from any computer and keeps the working environment consistent and clutter free. 
@@ -18,9 +19,9 @@ To be able to do this, I need an application / software / method which is
 * **Flexible** - Editing / backups / upgrading / future-shifting must be easy to do. 
 * **Indexed** - what's the point of storing files if you can't access the contents at the right time?
 
-###Keeping the above points in mind, I chose the following services:
+### **Keeping the above points in mind, I chose the following services:**
 
-* #### Dropbox:
+* **Dropbox**:
 
 	I was torn out between [Dropbox](https://dropbox.com) and [Evernote](https://evernote.com) for my note taking requirements. 
 	Evernote provided tons of features including OCR, searchable files and tons of other features. But it had some major flaws:
@@ -31,11 +32,11 @@ To be able to do this, I need an application / software / method which is
 
 	Whereas Dropbox was available natively for Linux, Windows and Android, supported any type of files and was **extremely flexible** (specially when used with a shell/terminal). Thus, I decided to store all my notes in dropbox which then instantly got synced everywhere. Even though Dropbox has a limit (currently ~4.5 GB for me), it can be upgraded to 16GB worth of free space by referring friends or completing tasks, which I believe is *more than enough* for **notes, files, documents and code**.
 
-* #### Google Drive:
+* **Google Drive**:
 
 	All the data apart from text will be stored in google drive. Since I have a couple of gmail accounts and google provides a total of 15 GB free space (for all their services), storing media and other heavy files should be no issue for the near future. If ever I do need more space, Drive provides 100 GB of extra space for only $1.99 per month which I believe is a better bang for buck when compared to Evernote Premium.
 
-* #### Hard Drive:
+* **Hard Drive**:
 
 	For everthing else, i.e: old photos, family videos, phone backups and pretty much anything which is rarely used; I prefer a good ol' Western Digital 1 TB HDD. It's cheap, effective but risky. Which is why I have a backup of that data on other HDD's :D)
 
