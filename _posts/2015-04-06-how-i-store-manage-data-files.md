@@ -18,7 +18,7 @@ To be able to do this, I need an application / software / method which is
 * **Flexible** - Editing / backups / upgrading / future-shifting must be easy to do. 
 * **Indexed** - what's the point of storing files if you can't access the contents at the right time?
 
-### **Keeping the above points in mind, I chose the following services:**
+#### Keeping the above points in mind, I chose the following services:
 
 * **Dropbox**:
 
