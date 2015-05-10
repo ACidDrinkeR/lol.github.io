@@ -3,16 +3,17 @@
     /*font-family: Consolas, monaco, monospace;*/
     /*font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
     /*padding: 0px;*/
+    font-family: 'Sorts Mill Goudy', Georgia, Times, serif;
     font-size: 1.75rem;
     line-height: 2.5rem;
 }
 
-@media(min-width:1200px){
+/*@media(min-width:1200px){
     *{
         font-size: 1.75rem;
         line-height: 2.5rem;
     }
-}
+}*/
 
 .myMono{
     font-family: Consolas, monaco, monospace;
@@ -38,6 +39,7 @@ a {
     /*color: #99ccdd;   Blue    */
     /*  color: #3ad789; Green   */
     font-size: 1em;
+    border-bottom: 1px dashed #999;
 }
 
 a:hover{
@@ -134,14 +136,14 @@ ul{
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
+    
 }
 
 /* ## POSTS ## */
 
-.content{
+/*.content{
     font-family: 'Sorts Mill Goudy', Georgia, Times, serif;
-}
+}*/
 
 a.post{
     color: black;
@@ -151,9 +153,9 @@ a.post{
     border-color: #c0c0c0;
 }
 
-.post{
+/*.post{
     font-family: 'Sorts Mill Goudy', Georgia, Times, serif;
-}
+}*/
 
 ul.posts { 
     margin: 20px auto 40px; 
