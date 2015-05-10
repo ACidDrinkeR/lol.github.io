@@ -1,9 +1,24 @@
 /* ## GLOBAL ## */
+* {
+    font-family: 'Sorts Mill Goudy', Georgia, Times, serif;
+    /*font-size: 1.75rem;
+    line-height: 2.5rem;*/
+}
+
+/*@media(min-width:1200px){
+    *{
+        font-size: 1.75rem;
+        line-height: 2.5rem;
+    }
+}*/
+
+/*h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Sorts Mill Goudy', Georgia, Times, serif;
+}*/
 
 .myMono{
     font-family: Consolas, monaco, monospace;
 }
-
 .myRight{
     text-align: right;
 }
@@ -11,6 +26,17 @@
 .container{
     max-width: 720px;  
 }
+
+/*a {
+    /*color: #99ccdd;   Blue    */
+    /*  color: #3ad789; Green   */
+    /*font-size: 1em;
+}
+
+a:hover{
+    color: gray;
+    text-decoration: none;
+}*/
 
 ul{
     -webkit-padding-start:20px;
@@ -100,12 +126,29 @@ ul{
     padding: 0px;
 }
 
+h1 {
+    font-size: 3.5em;
+}
+
 /* ## POSTS ## */
 
-a.post{    
-    border-color: #c0c0c0;
-    border-bottom: 1px solid #999;
+/*.content{
+    font-family: 'Sorts Mill Goudy', Georgia, Times, serif;
+}*/
+
+/*a.post{
+    color: black;
+    text-decoration: none;
+    /*border-width: 0 0 1px 0;
+    border-style: none none solid none; */
+    
+    /*border-color: #c0c0c0;
+    border-bottom: 1px dashed #999;
 }
+
+/*.post{
+    font-family: 'Sorts Mill Goudy', Georgia, Times, serif;
+}*/
 
 ul.posts { 
     margin: 20px auto 40px; 
