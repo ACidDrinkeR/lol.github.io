@@ -6,7 +6,7 @@ title: Computable(verse);
 # Welcome to [my](http://miteshms.me/author/) blog.  
 
 I enjoy writing stuff, so I decided to [start blogging](/blog/why-blog/).  
-The blog will include posts about personal and technical mainly revolving around my life, computers and the multi-verse.  
+The blog will include posts about personal and technical stuff; mainly revolving around my life, computers and the multi-verse.  
 
 I want to keep the site **minimal**, **clean** and **void of distractions**. i.e to the point. Hence it has a very simple color scheme: [ 'Black', 'Gray', 'White', 'Aqua Green' ] and no unnecessary stuff like 'Tags' and 'Share' etc.
 
