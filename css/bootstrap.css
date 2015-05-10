@@ -5,8 +5,8 @@
  */
 
 /*!
- * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=d54d7adfe8cc92a78121)
- * Config saved to config.json and https://gist.github.com/d54d7adfe8cc92a78121
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=2dcf12a02cb65a1de1d9)
+ * Config saved to config.json and https://gist.github.com/2dcf12a02cb65a1de1d9
  */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
@@ -1086,8 +1086,8 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-family: 'Sorts Mill Goudy', Georgia, Times, serif;
+  font-size: 20px;
   line-height: 1.6;
   color: #333333;
   background-color: #ffffff;
@@ -1101,13 +1101,13 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #51b9db;
+  color: #333333;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #1e738f;
-  text-decoration: underline;
+  color: #737373;
+  text-decoration: none;
 }
 a:focus {
   outline: thin dotted;
@@ -1145,8 +1145,8 @@ img {
   border-radius: 50%;
 }
 hr {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 32px;
+  margin-bottom: 32px;
   border: 0;
   border-top: 1px solid #eeeeee;
 }
@@ -1184,10 +1184,10 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
+  font-family: 'Sorts Mill Goudy', Georgia, Times, serif;
   font-weight: 500;
   line-height: 1.1;
-  color: inherit;
+  color: #333333;
 }
 h1 small,
 h2 small,
@@ -1223,8 +1223,8 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 25px;
-  margin-bottom: 12.5px;
+  margin-top: 32px;
+  margin-bottom: 16px;
 }
 h1 small,
 .h1 small,
@@ -1246,8 +1246,8 @@ h5,
 .h5,
 h6,
 .h6 {
-  margin-top: 12.5px;
-  margin-bottom: 12.5px;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 h4 small,
 .h4 small,
@@ -1269,41 +1269,41 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 48px;
+  font-size: 47px;
 }
 h3,
 .h3 {
-  font-size: 42px;
+  font-size: 38px;
 }
 h4,
 .h4 {
-  font-size: 35px;
+  font-size: 29px;
 }
 h5,
 .h5 {
-  font-size: 28px;
+  font-size: 20px;
 }
 h6,
 .h6 {
-  font-size: 20px;
+  font-size: 17px;
 }
 p {
-  margin: 0 0 12.5px;
+  margin: 0 0 16px;
 }
 .lead {
-  margin-bottom: 25px;
-  font-size: 18px;
+  margin-bottom: 32px;
+  font-size: 23px;
   font-weight: 300;
   line-height: 1.4;
 }
 @media (min-width: 768px) {
   .lead {
-    font-size: 24px;
+    font-size: 30px;
   }
 }
 small,
 .small {
-  font-size: 87%;
+  font-size: 85%;
 }
 mark,
 .mark {
@@ -1399,14 +1399,14 @@ a.bg-danger:hover {
   background-color: #e4b9b9;
 }
 .page-header {
-  padding-bottom: 11.5px;
-  margin: 50px 0 25px;
+  padding-bottom: 15px;
+  margin: 64px 0 32px;
   border-bottom: 1px solid #eeeeee;
 }
 ul,
 ol {
   margin-top: 0;
-  margin-bottom: 12.5px;
+  margin-bottom: 16px;
 }
 ul ul,
 ol ul,
@@ -1430,7 +1430,7 @@ ol ol {
 }
 dl {
   margin-top: 0;
-  margin-bottom: 25px;
+  margin-bottom: 32px;
 }
 dt,
 dd {
@@ -1466,9 +1466,9 @@ abbr[data-original-title] {
   text-transform: uppercase;
 }
 blockquote {
-  padding: 12.5px 25px;
-  margin: 0 0 25px;
-  font-size: 20px;
+  padding: 16px 32px;
+  margin: 0 0 32px;
+  font-size: 25px;
   border-left: 5px solid #eeeeee;
 }
 blockquote p:last-child,
@@ -1514,7 +1514,7 @@ blockquote.pull-right .small:after {
   content: '\00A0 \2014';
 }
 address {
-  margin-bottom: 25px;
+  margin-bottom: 32px;
   font-style: normal;
   line-height: 1.6;
 }
@@ -1549,9 +1549,9 @@ kbd kbd {
 }
 pre {
   display: block;
-  padding: 12px;
-  margin: 0 0 12.5px;
-  font-size: 15px;
+  padding: 15.5px;
+  margin: 0 0 16px;
+  font-size: 19px;
   line-height: 1.6;
   word-break: break-all;
   word-wrap: break-word;
@@ -2254,7 +2254,7 @@ th {
 .table {
   width: 100%;
   max-width: 100%;
-  margin-bottom: 25px;
+  margin-bottom: 32px;
 }
 .table > thead > tr > th,
 .table > tbody > tr > th,
@@ -2437,7 +2437,7 @@ table th[class*="col-"] {
 @media screen and (max-width: 767px) {
   .table-responsive {
     width: 100%;
-    margin-bottom: 18.75px;
+    margin-bottom: 24px;
     overflow-y: hidden;
     -ms-overflow-style: -ms-autohiding-scrollbar;
     border: 1px solid #dddddd;
@@ -2489,8 +2489,8 @@ legend {
   display: block;
   width: 100%;
   padding: 0;
-  margin-bottom: 25px;
-  font-size: 24px;
+  margin-bottom: 32px;
+  font-size: 30px;
   line-height: inherit;
   color: #333333;
   border: 0;
@@ -2534,16 +2534,16 @@ input[type="checkbox"]:focus {
 output {
   display: block;
   padding-top: 7px;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.6;
   color: #555555;
 }
 .form-control {
   display: block;
   width: 100%;
-  height: 39px;
+  height: 46px;
   padding: 6px 12px;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.6;
   color: #555555;
   background-color: #ffffff;
@@ -2593,7 +2593,7 @@ input[type="search"] {
   input[type="time"],
   input[type="datetime-local"],
   input[type="month"] {
-    line-height: 39px;
+    line-height: 46px;
   }
   input[type="date"].input-sm,
   input[type="time"].input-sm,
@@ -2603,7 +2603,7 @@ input[type="search"] {
   .input-group-sm input[type="time"],
   .input-group-sm input[type="datetime-local"],
   .input-group-sm input[type="month"] {
-    line-height: 33px;
+    line-height: 37px;
   }
   input[type="date"].input-lg,
   input[type="time"].input-lg,
@@ -2613,7 +2613,7 @@ input[type="search"] {
   .input-group-lg input[type="time"],
   .input-group-lg input[type="datetime-local"],
   .input-group-lg input[type="month"] {
-    line-height: 49px;
+    line-height: 56px;
   }
 }
 .form-group {
@@ -2628,7 +2628,7 @@ input[type="search"] {
 }
 .radio label,
 .checkbox label {
-  min-height: 25px;
+  min-height: 32px;
   padding-left: 20px;
   margin-bottom: 0;
   font-weight: normal;
@@ -2685,7 +2685,7 @@ fieldset[disabled] .checkbox label {
   padding-top: 7px;
   padding-bottom: 7px;
   margin-bottom: 0;
-  min-height: 41px;
+  min-height: 52px;
 }
 .form-control-static.input-lg,
 .form-control-static.input-sm {
@@ -2693,84 +2693,84 @@ fieldset[disabled] .checkbox label {
   padding-right: 0;
 }
 .input-sm {
-  height: 33px;
+  height: 37px;
   padding: 5px 10px;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 1.5;
   border-radius: 3px;
 }
 select.input-sm {
-  height: 33px;
-  line-height: 33px;
+  height: 37px;
+  line-height: 37px;
 }
 textarea.input-sm,
 select[multiple].input-sm {
   height: auto;
 }
 .form-group-sm .form-control {
-  height: 33px;
+  height: 37px;
   padding: 5px 10px;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 1.5;
   border-radius: 3px;
 }
 select.form-group-sm .form-control {
-  height: 33px;
-  line-height: 33px;
+  height: 37px;
+  line-height: 37px;
 }
 textarea.form-group-sm .form-control,
 select[multiple].form-group-sm .form-control {
   height: auto;
 }
 .form-group-sm .form-control-static {
-  height: 33px;
+  height: 37px;
   padding: 5px 10px;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 1.5;
-  min-height: 39px;
+  min-height: 49px;
 }
 .input-lg {
-  height: 49px;
+  height: 56px;
   padding: 10px 16px;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 1.3333333;
   border-radius: 6px;
 }
 select.input-lg {
-  height: 49px;
-  line-height: 49px;
+  height: 56px;
+  line-height: 56px;
 }
 textarea.input-lg,
 select[multiple].input-lg {
   height: auto;
 }
 .form-group-lg .form-control {
-  height: 49px;
+  height: 56px;
   padding: 10px 16px;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 1.3333333;
   border-radius: 6px;
 }
 select.form-group-lg .form-control {
-  height: 49px;
-  line-height: 49px;
+  height: 56px;
+  line-height: 56px;
 }
 textarea.form-group-lg .form-control,
 select[multiple].form-group-lg .form-control {
   height: auto;
 }
 .form-group-lg .form-control-static {
-  height: 49px;
+  height: 56px;
   padding: 10px 16px;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 1.3333333;
-  min-height: 45px;
+  min-height: 57px;
 }
 .has-feedback {
   position: relative;
 }
 .has-feedback .form-control {
-  padding-right: 48.75px;
+  padding-right: 57.5px;
 }
 .form-control-feedback {
   position: absolute;
@@ -2778,21 +2778,21 @@ select[multiple].form-group-lg .form-control {
   right: 0;
   z-index: 2;
   display: block;
-  width: 39px;
-  height: 39px;
-  line-height: 39px;
+  width: 46px;
+  height: 46px;
+  line-height: 46px;
   text-align: center;
   pointer-events: none;
 }
 .input-lg + .form-control-feedback {
-  width: 49px;
-  height: 49px;
-  line-height: 49px;
+  width: 56px;
+  height: 56px;
+  line-height: 56px;
 }
 .input-sm + .form-control-feedback {
-  width: 33px;
-  height: 33px;
-  line-height: 33px;
+  width: 37px;
+  height: 37px;
+  line-height: 37px;
 }
 .has-success .help-block,
 .has-success .control-label,
@@ -2885,7 +2885,7 @@ select[multiple].form-group-lg .form-control {
   color: #a94442;
 }
 .has-feedback label ~ .form-control-feedback {
-  top: 30px;
+  top: 37px;
 }
 .has-feedback label.sr-only ~ .form-control-feedback {
   top: 0;
@@ -2956,7 +2956,7 @@ select[multiple].form-group-lg .form-control {
 }
 .form-horizontal .radio,
 .form-horizontal .checkbox {
-  min-height: 32px;
+  min-height: 39px;
 }
 .form-horizontal .form-group {
   margin-left: -15px;
@@ -2995,7 +2995,7 @@ select[multiple].form-group-lg .form-control {
   border: 1px solid transparent;
   white-space: nowrap;
   padding: 6px 12px;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.6;
   border-radius: 4px;
   -webkit-user-select: none;
@@ -3307,7 +3307,7 @@ fieldset[disabled] .btn-danger.active {
   background-color: #ffffff;
 }
 .btn-link {
-  color: #51b9db;
+  color: #333333;
   font-weight: normal;
   border-radius: 0;
 }
@@ -3328,8 +3328,8 @@ fieldset[disabled] .btn-link {
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #1e738f;
-  text-decoration: underline;
+  color: #737373;
+  text-decoration: none;
   background-color: transparent;
 }
 .btn-link[disabled]:hover,
@@ -3341,19 +3341,19 @@ fieldset[disabled] .btn-link:focus {
 }
 .btn-lg {
   padding: 10px 16px;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 1.3333333;
   border-radius: 6px;
 }
 .btn-sm {
   padding: 5px 10px;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 1.5;
   border-radius: 3px;
 }
 .btn-xs {
   padding: 1px 5px;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 1.5;
   border-radius: 3px;
 }
