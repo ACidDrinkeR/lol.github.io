@@ -4,7 +4,6 @@ title: "How do I store and manage my 'data' / 'files'?"
 date: 2015-04-06
 ---
 
-## By [Mitesh Shah](http://miteshms.me/author)
 In this day and age, taking and storing digital data especially *documents* is trivial. It's inevitable and everyone has to do it at some point or the other.
 
 I like keeping things organized neatly and avoid storing unecessary files, books, documents, items and even redundant information. I hate storing my data locally; *Cloud* is the way to go, it makes the data easy to acess from any computer and keeps the working environment consistent and clutter free. 
