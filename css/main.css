@@ -1,8 +1,5 @@
 /* ## GLOBAL ## */
 * {
-    /*font-family: Consolas, monaco, monospace;*/
-    /*font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
-    /*padding: 0px;*/
     font-family: 'Sorts Mill Goudy', Georgia, Times, serif;
     font-size: 1.75rem;
     line-height: 2.5rem;
@@ -25,7 +22,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .myRight{
     text-align: right;
 }
-.myBorder{
+/*.myBorder{
     /* This snippet was taken from the internet */
     border: 0;
     height: 1px;
@@ -33,7 +30,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
     background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
     background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-}
+}*/
 
 .container{
     max-width: 720px;  
@@ -43,8 +40,6 @@ a {
     /*color: #99ccdd;   Blue    */
     /*  color: #3ad789; Green   */
     font-size: 1em;
-    color: black;
-    border-bottom: 1px dashed #999;
 }
 
 a:hover{
@@ -153,9 +148,11 @@ h1 {
 a.post{
     color: black;
     text-decoration: none;
-    border-width: 0 0 1px 0;
-    border-style: none none solid none;
+    /*border-width: 0 0 1px 0;
+    border-style: none none solid none; */
+    
     border-color: #c0c0c0;
+    border-bottom: 1px dashed #999;
 }
 
 /*.post{
