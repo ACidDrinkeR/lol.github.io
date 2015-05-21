@@ -1,8 +1,14 @@
 ---
 layout: post
-title: "Gaming log [Year: 2014]"
+title: "Entertainment log [Year: 2014]"
 date: 2015-05-04
 ---
+
+I'll be doing yearly (or maybe bi-yearly) logs about my entertainment/media consumption. Making logs is great, more data = more fun :D
+
+<!--more-->
+
+##Gaming Log:
 
 I've been a gamer for a huge portion of my life. I'm guessing many of us play games when we are small but not all grow up and continue playing. Some of us find a very satisfying experience in games, something which is very hard to experience otherwise. I'd say playing games is somewhat similar to reading and writing. In games, you play in the shoes of your charachter, live thier life and yet get to controll a substantial amount of the complete out-of-the-world experience.<!--more-->
 
