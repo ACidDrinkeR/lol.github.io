@@ -39,8 +39,8 @@ Times have been tracked using Steams in-built time tracking feature which isn't 
 
 # TV Shows
 
-<coming soon>
+(coming soon)
 
 # Movies
 
-<coming soon>
+(coming soon)
