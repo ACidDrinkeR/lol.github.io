@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Entertainment log [Year: 2014]"
+title: "Entertainment log [Year:2014]"
 date: 2015-05-04
 ---
 
@@ -8,9 +8,7 @@ I'll be doing yearly (or maybe bi-yearly) logs about my entertainment/media cons
 
 <!--more-->
 
-##Gaming Log:
-
-I've been a gamer for a huge portion of my life. I'm guessing many of us play games when we are small but not all grow up and continue playing. Some of us find a very satisfying experience in games, something which is very hard to experience otherwise. I'd say playing games is somewhat similar to reading and writing. In games, you play in the shoes of your charachter, live thier life and yet get to controll a substantial amount of the complete out-of-the-world experience.<!--more-->
+# Gaming
 
 I've played a lot of games from a very young age specifically on the PS1, PS2, Gameboy Advanced, Nintendo DS, and finally the computer. I spent most of my school years playing Age of Empires 1/2, Age of Mythology, Rise of Nations, DotA, GunZ, and Runescape. But that's the past. My love for gaming rekindled over the years specifially in the 2014 and I played quite some games that year. 
 
@@ -38,4 +36,11 @@ I've played a lot of games from a very young age specifically on the PS1, PS2, G
 **Total time spent**: 211.3 hrs 
 
 Times have been tracked using Steams in-built time tracking feature which isn't very accurate but does the job.
-I'm hoping to do a similar 'Gaming log' every year because I think it's kind of fun and exciting to write it down and share it with the world.
+
+# TV Shows
+
+<coming soon>
+
+# Movies
+
+<coming soon>
